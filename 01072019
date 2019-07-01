@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleProject1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Birinci scope(blok)
+            //int a = 20;
+            //Console.WriteLine(a);
+            //Console.ReadLine();
+            //Console.ReadKey();
+            //Console.Read();
+
+            string isim;
+            string soyIsim;
+
+            Console.WriteLine("Lutfen isminizi giriniz.");
+            isim = Console.ReadLine();
+
+            Console.WriteLine("Lütfen soyisminizi giriniz.");
+            soyIsim = Console.ReadLine();
+
+            string adSoyad;
+            adSoyad = isim + "" + soyIsim;
+            Console.WriteLine(adSoyad);
+            Console.WriteLine(isim + "--" + soyIsim);
+
+            string yas;
+            Console.WriteLine("Lütfen yaşınızı giriniz.");
+            yas = Console.ReadLine();
+
+            Console.WriteLine(isim + " " + soyIsim + " " + yas);
+            Console.ReadLine();
+        }
+    }
+
+    class Program2
+    {
+
+    }
+}
